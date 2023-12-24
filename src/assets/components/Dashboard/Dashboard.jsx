@@ -1,12 +1,12 @@
-import logo from "../../assests/logo.svg";
-import overview from "../../assests/overview.svg";
-import tickets from "../../assests/tickets.svg";
-import ideas from "../../assests/ideas.svg";
-import contact from "../../assests/contacts.svg";
-import agent from "../../assests/agents.svg";
-import articles from "../../assests/articles.svg";
-import setting from "../../assests/settings.svg";
-import sub from "../../assests/subscription.svg";
+import logo from "../../images/logo.svg";
+import overview from "../../images/overview.svg";
+import tickets from "../../images/tickets.svg";
+import ideas from "../../images/ideas.svg";
+import contact from "../../images/contacts.svg";
+import agent from "../../images/agents.svg";
+import articles from "../../images/articles.svg";
+import setting from "../../images/settings.svg";
+import sub from "../../images/subscription.svg";
 
 function Dashboard() {
   return (

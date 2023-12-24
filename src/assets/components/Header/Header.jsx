@@ -1,5 +1,5 @@
-import search from "../../assests/Ellipse.svg";
-import note from "../../assests/new.svg";
+import search from "../../images/Ellipse.svg";
+import note from "../../images/new.svg";
 
 function Header() {
   return (
