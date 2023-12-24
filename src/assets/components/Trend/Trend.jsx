@@ -1,5 +1,6 @@
 import { trend_items } from "../../../constants";
 import TrendItems from "../TrendItem/TrendItem";
+import img from "../../images/trendImg.png";
 
 function Trend() {
   return (
@@ -52,7 +53,7 @@ function Trend() {
             </div>
           </div>
           <img
-            src="./src/assets/images/trendImg.png"
+            src={img}
             alt="Graphic illustrated from illustrators"
             width={720}
             height={406}
