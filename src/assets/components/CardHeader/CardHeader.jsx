@@ -1,6 +1,6 @@
 function CardHeader() {
   return (
-    <ul className="flex items-center justify-center gap-8">
+    <ul className="flex items-center justify-between gap-8">
       <li className="group w-64 py-6 px-6 flex flex-col items-center justify-center border-2 rounded-lg hover:border-blue-600  bg-white">
         <span className="font-bold text-lg tracking-widest mb-3 text-gray-400 group-hover:text-blue-600">
           Unresolved

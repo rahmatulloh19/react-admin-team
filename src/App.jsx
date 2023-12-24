@@ -3,7 +3,7 @@ import Dashboard from "./assets/components/Dashboard/Dashboard";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="grid">
       <Dashboard />
       <MainComp />
     </div>

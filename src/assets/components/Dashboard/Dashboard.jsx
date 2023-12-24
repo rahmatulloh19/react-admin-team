@@ -10,7 +10,7 @@ import sub from "../../images/subscription.svg";
 
 function Dashboard() {
   return (
-    <div className="w-2/12 h-screen bg-zinc-800 pt-8">
+    <div className="w-2/12 h-screen bg-[#363740] pt-8 fixed">
       <a href="#" className="flex gap-3 items-center justify-start  mb-14 pl-8">
         <img src={logo} alt={logo} width={32} height={32} />
         <span className="text-gray-400 text-opacity-70 font-bold">
