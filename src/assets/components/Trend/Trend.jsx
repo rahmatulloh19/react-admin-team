@@ -60,7 +60,6 @@ function Trend() {
         </div>
         <ul className="trend__list border-l border-borderColor py-2 text-center grow">
           {trend_items.map((item, index) => {
-            console.log(item);
             if (index == 4) {
               return <TrendItems {...item} key={index} />;
             } else {

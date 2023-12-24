@@ -1,6 +1,4 @@
 function TrendItems({ isLast, title, text }) {
-  console.log(title, text);
-
   if (isLast) {
     return (
       <li className="py-6">
