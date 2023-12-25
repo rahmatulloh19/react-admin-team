@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="flex items-center justify-between mb-14">
-        <strong className="font-bold text-2xl">Overview</strong>
+        <h2 className="font-bold text-2xl">Overview</h2>
         <div className="flex items-center justify-center">
           <form className="flex items-center justify-center mr-8 gap-6">
             <label className="flex items-center gap-3">
