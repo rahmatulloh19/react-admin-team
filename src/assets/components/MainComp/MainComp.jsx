@@ -1,4 +1,5 @@
 import CardHeader from "../CardHeader/CardHeader";
+import Details from "../Details/Details";
 import Header from "../Header/Header";
 import Trend from "../Trend/Trend";
 
@@ -8,6 +9,7 @@ function MainComp() {
       <Header />
       <CardHeader />
       <Trend />
+      <Details />
     </main>
   );
 }

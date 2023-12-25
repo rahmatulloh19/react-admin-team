@@ -21,3 +21,42 @@ export const trend_items = [
     isLast: true,
   },
 ];
+
+export const ticket_items = [
+  {
+    title: "Waiting on Feature Request",
+    count: "4238",
+  },
+  {
+    title: "Awaiting Customer Response",
+    count: "1005",
+  },
+  {
+    title: "Awaiting Developer Fix",
+    count: "914",
+  },
+  {
+    title: "Pending",
+    count: "281",
+    isLast: true,
+  },
+];
+
+export const task_items = [
+  {
+    title: "Finish ticket update",
+    type: "Urgent",
+    isComplated: false,
+  },
+  {
+    title: "Create new ticket example",
+    type: "New",
+    isComplated: false,
+  },
+  {
+    title: "Update ticket report",
+    type: "Default",
+    isCompleted: true,
+    isLast: true,
+  },
+];

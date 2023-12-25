@@ -32,3 +32,31 @@ body {
   font-family: "Mulish", "Arial", sans-serif;
   background-color: #f7f8fc;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.w-6 {
+  background-image: url("./assets/images/plus.svg");
+}
+
+.urgent {
+  background-color: #fec400;
+}
+
+.new {
+  background-color: #29cc97;
+}
+
+.default {
+  color: #9fa2b4;
+  background-color: #f0f1f7;
+}
