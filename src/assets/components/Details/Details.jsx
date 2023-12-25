@@ -1,7 +1,6 @@
 import { task_items, ticket_items } from "../../../constants";
 import TicketItem from "../TicketItem/TicketItem";
 import TaskItem from "../TaskItem/TaskItem";
-import Plus from "../../images/plus.svg";
 
 function Details() {
   return (
