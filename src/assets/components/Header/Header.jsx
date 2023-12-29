@@ -1,6 +1,6 @@
-import search from "../../images/Ellipse.svg";
-import note from "../../images/new.svg";
-
+import { IoIosNotificationsOutline } from "react-icons/io";
+import { GoSearch } from "react-icons/go";
+import avatar from "../../images/avatar.png";
 function Header() {
   return (
     <header>
@@ -14,20 +14,20 @@ function Header() {
                 type="search"
               />
               <span>
-                <img src={search} alt="search" width={16} height={16} />
+                <GoSearch className="w-5 h-5 opacity-70 hover:opacity-100" />
               </span>
             </label>
             <button type="button">
-              <img src={note} alt="note" width={16} height={16} />
+              <IoIosNotificationsOutline className="w-5 h-5 hover:opacity-75" />
             </button>
           </form>
 
-          <span className="pl-8 mr-3 border-l-2  border-gray-200 text-sm font-semibold tracking-widest .leading-5 text-gray-800">
+          <span className="pl-8 mr-3 border-l-2  border-gray-200 text-sm font-semibold tracking-widest .leading-5 text-gray-800 hover:opacity-75">
             Jonas Ferdinand
           </span>
           <img
-            className="rounded-full"
-            src="https://picsum.photos/44/44"
+            className="rounded-full hover:opacity-80"
+            src={avatar}
             alt="user picture"
             width={44}
             height={44}
