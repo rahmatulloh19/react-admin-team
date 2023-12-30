@@ -60,3 +60,26 @@ export const task_items = [
     isLast: true,
   },
 ];
+
+export const CardItems = [
+  {
+    id: 1,
+    statusName: "Unresolved",
+    countNumber: 60,
+  },
+  {
+    id: 2,
+    statusName: "Overdue",
+    countNumber: 16,
+  },
+  {
+    id: 3,
+    statusName: "Open",
+    countNumber: 43,
+  },
+  {
+    id: 4,
+    statusName: "On hold",
+    countNumber: 64,
+  },
+];
